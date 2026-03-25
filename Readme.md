@@ -104,20 +104,7 @@ cd Backend
 # Install dependencies
 npm install
 
-# Create .env file
-touch .env
-```
 
-Add the following to your `.env` file:
-```env
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_mysql_password
-DB_NAME=pesto_db
-JWT_SECRET=pesto-secret-key
-PORT=3001
-ADMIN_SECRET=pesto@admin2025
-```
 
 ### 3. Set up MySQL Database
 ```sql
