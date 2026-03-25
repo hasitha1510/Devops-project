@@ -93,7 +93,7 @@ pesto/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/hasitha-surapareddy/pesto-Devops-project.git
+git clone https://github.com/hasitha1510/Devops-project.git
 cd pesto-react
 ```
 
@@ -260,7 +260,7 @@ CREATE TABLE cart_items (
 ## 👨‍💻 Author
 
 **Hasitha**
-- GitHub: [@hasitha-surapareddy](https://github.com/Hasitha-surapareddy)
+- GitHub: [@hasitha1510](https://github.com/hasitha1510)
 
 ---
 
