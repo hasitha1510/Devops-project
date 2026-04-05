@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import { useCart } from "../context/CartContext";
 
-const API =process.env.REACT_APP_API_URL ;
+const API = "http://localhost:3001";
 
 export default function Login() {
   const [email, setEmail]           = useState("");

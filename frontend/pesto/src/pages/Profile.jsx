@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Navbar from "../components/Navbar";
 
-const API = process.env.REACT_APP_API_URL;
+const API = "http://localhost:3001";
 
 export default function Profile() {
   const [user, setUser]       = useState(null);
