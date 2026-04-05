@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import AdminNavbar from "../components/AdminNavbar";
 
-const API = "http://localhost:3001";
+const API = process.env.REACT_APP_API_URL;
 
 export default function AdminUsers() {
   const [users, setUsers]     = useState([]);

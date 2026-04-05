@@ -4,7 +4,7 @@ import axios from "axios";
 import Navbar from "../components/Navbar";
 import { useCart } from "../context/CartContext";
 
-const API = "http://localhost:3001";
+const API = process.env.REACT_APP_API_URL;
 
 export default function Checkout() {
   const [name, setName]         = useState("");
