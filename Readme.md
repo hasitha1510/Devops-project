@@ -8,7 +8,7 @@ A modern full-stack food ordering web application built with **React**, **Node.j
 
 ## 🌟 Features
 
-### 👤 Customer Side
+## 👤 Customer Side
 - 🔐 User registration & login with JWT authentication
 - 🛒 Add items to cart (works without login too)
 - 💳 Checkout with auto-filled delivery details
